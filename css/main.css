@@ -10,3 +10,35 @@ html {
 body {
 	background: #fff;
 }
+
+body * {
+    font-family: IBM;
+    user-select: none;
+}
+
+.area {
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#more {
+    background: #ffe;
+    top: 0;
+    left: 0;
+}
+
+#less {
+    background: #eff;
+    bottom: 0;
+    left: 0;
+}
+
+#number {
+    position: absolute;
+    font-size: 48pt;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
